@@ -1,0 +1,10 @@
+
+	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(áã·Ëúÿÿÿÿ8ØÅõ†2J$6de7eb33-2d23-46b4-b794-306bf0db18b5
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ç‡÷8İÅõ†2J$c235a25b-8ff1-439f-bf01-7beb893f67ce
+d
+java:S1170"!Make this final field static too.(¯éÚ8ƒÆõ†2J$c8f32532-6e17-4967-847e-0ddc23a53d43
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8„Æõ†2J$c5de95d3-6bb2-4f7d-b1ca-6bf7c33848c3
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8÷ëƒ2J$7c71b05f-b3d9-4ada-8f6b-7a4a7ccf022e
+ƒ	java:S125*"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ8ÛÆõ†2J$dbe3d061-eadf-44e5-bd53-3087ee537637

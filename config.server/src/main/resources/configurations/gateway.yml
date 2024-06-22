@@ -1,0 +1,31 @@
+eureka:
+  client:
+    register-with-eureka: false
+server:
+  port: 8222
+spring:
+  application:
+    name: gateway
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id : clients
+          uri : http://localhost:8090
+          predicates:
+            - Path=/api/v1/**
+        - id: campaign
+          uri: http://localhost:8071
+          predicates:
+            - Path=/api/v1/campaign/**
+        - id: offreps
+          uri: http://localhost:8777
+          predicates:
+            - Path=/api/v1/**
+management:
+  tracing:
+    sampling:
+      probability: 1.0

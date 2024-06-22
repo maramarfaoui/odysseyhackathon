@@ -1,0 +1,22 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ôÄ»øÿÿÿÿ8Àš“›þ1J$03f83719-1f59-4041-b1ef-e139f475e013
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8×š“›þ1J$634d626e-db3b-46e3-98dc-c51a31d634e4
+ƒ	java:S125)"<This block of commented-out lines of code should be removed.(º³ß¤ûÿÿÿÿ8áš“›þ1J$ed2db461-da96-472b-a82a-1bfd724905f8
+“
+java:S1172:"KRemove these unused method parameters "consommationClient", "localisation".(è¢½˜þÿÿÿÿ8ãš“›þ1J$d585efd8-7586-4076-a426-ce3dc3df7224
+~	java:S125<"<This block of commented-out lines of code should be removed.(ôÀžþ8äš“›þ1J$9982f0c2-c170-45fb-a50e-b02af7963fb1
+ƒ	java:S125?"<This block of commented-out lines of code should be removed.(¶éíèüÿÿÿÿ8äš“›þ1J$3577ce4e-cce6-440f-9a9f-99cbd1484a8f
+~	java:S125B"<This block of commented-out lines of code should be removed.(šè½8åš“›þ1J$76a2c7fe-26ee-47bb-86fb-609a238ddbf2
+~	java:S125G"<This block of commented-out lines of code should be removed.(¸Ê‹ 8åš“›þ1J$70adc50f-77d5-40ba-8c15-04525e2a72c0
+
+java:S1172K"9Remove this unused method parameter "consommationClient".(œóùÿÿÿÿ8æš“›þ1J$ee23e170-e27e-47f1-918a-5c7e5372b340
+•
+java:S6204P"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8çš“›þ1J$31c26bd2-da27-4e51-9469-10d041609750
+u
+java:S1172S"-Remove this unused method parameter "offres".(Ã¹Ñ€øÿÿÿÿ8èš“›þ1J$7c626032-6963-4623-9466-3341074857f8
+ƒ	java:S125X"<This block of commented-out lines of code should be removed.(ÒÄôÅøÿÿÿÿ8éš“›þ1J$81dfa4dc-0ecc-4255-a4a7-52a27e3a1c5a
+z
+java:S1144K"2Remove this unused private "filtrerOffres" method.(œóùÿÿÿÿ8êš“›þ1J$f4cd1ea4-43bc-4bc3-b108-f713bff1436f
+
+java:S1144S"GRemove this unused private "calculerMeilleurRapportQualitePrix" method.(Ã¹Ñ€øÿÿÿÿ8êš“›þ1J$fb653493-8f98-4fe2-a1ef-7ced33231fa0

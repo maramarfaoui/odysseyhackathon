@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: clients
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8180/realms/bdcc-realm
+          jwk-set-uri: http://localhost:8180/realms/bdcc-realm/protocol/openid-connect/certs
+
+keycloak:
+  auth-server-url: http://localhost:8180
+
+cloudinary:
+  cloud-name: dic0u12uq
+  api-key: 547274735386759
+  api-secret: BubEbuUtyuIMJ-utErc-IpVCuEA
+web3j:
+  client-address: https://mainnet.infura.io/v3/fdf25176edf046f4bc87dd6be9be9c16

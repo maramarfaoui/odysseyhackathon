@@ -1,0 +1,29 @@
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+server:
+  port: 8071
+
+
+spring:
+  application:
+    name: campaign
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: solarchain
+application:
+  config:
+    clients-url: http://localhost:8090/api/v1/clients
+management:
+  tracing:
+    sampling:
+      probability: 1.0

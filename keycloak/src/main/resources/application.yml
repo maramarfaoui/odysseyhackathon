@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: inv-service
+  cloud:
+    config:
+      enabled: false
+    discovery:
+      enabled: false
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8180/realms/bdcc-realm
+          jwk-set-uri: http://localhost:8180/realms/bdcc-realm/protocol/openid-connect/certs
+  server:
+    port: 8086
+
+keycloak:
+  auth-server-url: http://localhost:8180/auth
+  realm: bdcc-realm
+  resource: ecom-client-ang
+  credentials:
+    secret: eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0Y2ZkNTUyNy04Y2ZhLTQ2NTYtYmYwMi1mZTQyMmVhMzgyMzYifQ.eyJleHAiOjE3MjU5ODIzNDQsImlhdCI6MTcxNzM0MjM0NCwianRpIjoiMDZhMWY5MTctMDAzNS00MDc3LTlhNmMtOWE4MmQxMzNjMWZiIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9iZGNjLXJlYWxtIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9iZGNjLXJlYWxtIiwidHlwIjoiSW5pdGlhbEFjY2Vzc1Rva2VuIn0.VQmoZ8ML7WNGTUNkkyR7J9EutoN7Sp4LBYoNIEA0SMryhNm7UifVDUXkCBceWPDvx-oEadB8kMeQoFfNY5AvHQ
+
+keycloak-admin:
+  username: maram
+  password: 213JFT7631p

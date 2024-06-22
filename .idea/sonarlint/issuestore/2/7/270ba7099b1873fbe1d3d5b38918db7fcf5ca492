@@ -1,0 +1,9 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8îâ¥ı1J$54d81382-261b-4a2d-8e0b-7319c1111d24
+ƒ
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(Õ¥É–8öâ¥ı1J$62b42354-bb6d-4196-8324-c16b8f3837cf
+i
+java:S1452"&Remove usage of generic wildcard type.(Õ¥É–8øâ¥ı1J$e1e7b429-3285-4117-98c5-7aab4b6371a9
+i
+java:S1452%"&Remove usage of generic wildcard type.(·‚şø8úâ¥ı1J$6b6bb8df-2a49-4089-b583-208a2d5d0f2d
